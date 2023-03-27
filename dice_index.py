@@ -8,7 +8,7 @@ def dice_coefficient(pred, mask):
     print("Intersection:", intersection)
     print("Union:", union)
     print("Dice coefficient:", accuracy)
-    return accuracy
+    return accuracy.item()
 
 
 import torch
