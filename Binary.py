@@ -13,7 +13,7 @@ for filename in os.listdir(input_dir):
         img = Image.open(os.path.join(input_dir, filename)).convert('L')
         
         # Convert to binary
-        threshold = 50
+        threshold = 200 ## it determines the target brightness
         binary = img.point(lambda x: 0 if x < threshold else 255, '1')
         
         # Save binary image with same filename
