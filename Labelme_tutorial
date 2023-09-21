@@ -2,3 +2,5 @@ Lableme tutorial:
 https://github.com/wkentaro/labelme/tree/main/examples/tutorial 
 
 toBinary.py: https://github.com/samr28/labelme-to-binary-image 
+
+## remember in toBinary.py they have a code which is important. to convert your images to Binary you need to have that code. 
